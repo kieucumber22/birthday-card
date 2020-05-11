@@ -72,10 +72,32 @@ body.body-state5 .state5{
     display:block;
 }
 
-a {
+.interface {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Yesteryear', cursive;
+    font-size: 36px;
+}
 
+a {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
 }
 
 a.button {
+    background-color: #295a61;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
 
+a.button:hover {
+    background-color: #3f8a96;
 }
