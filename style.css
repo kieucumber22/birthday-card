@@ -1,0 +1,81 @@
+.left {
+    background-color: #91c9d3;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.right {
+    background: url('img/background.png') no-repeat 0 0;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.corgi {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 132px;
+    height: 186px;
+    margin-left: -66px;
+    background: url('img/corgi2.png') no-repeat 0 0;
+    transition: bottom 10000ms;
+}
+
+body.body-state3 .corgi,
+body.body-state4 .corgi{
+    bottom: 1000px;
+    width: 375px;
+    height: 430px;
+    margin-left: -187.5px;
+    background-image: url('img/balloon2.png');
+}
+
+body.body-state1 .corgi {
+    transition: none;
+}
+
+body.body-state2 .corgi {
+    width: 375px;
+    height: 430px;
+    margin-left: -187.5px;
+    background-image: url('img/balloon2.png');
+}
+
+
+.state1, .state2, .state3, .state4, .state5 {
+    display: none;
+}
+
+body.body-state1 .state1{
+    display:block;
+}
+
+body.body-state2 .state2{
+    display:block;
+}
+
+body.body-state3 .state3{
+    display:block;
+}
+
+body.body-state4 .state4{
+    display:block;
+}
+
+body.body-state5 .state5{
+    display:block;
+}
+
+a {
+
+}
+
+a.button {
+
+}
